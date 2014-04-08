@@ -1,1 +1,5 @@
-elasticsearch-1.1.0/data/*
+logstash-1.4.0/logs
+
+elasticsearch-1.1.0/data
+
+elasticsearch-1.1.0/logs
