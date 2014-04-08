@@ -1,0 +1,38 @@
+.rest-client-body {
+	padding-top: 10px;
+}
+.rest-client-request-url {
+	overflow: hidden;
+	display: block;
+}
+.rest-client-request-method {
+	width: 80px;
+	float: right;
+	margin-left: 10px;
+}
+.rest-client-execute {
+	float: right;
+	margin-left: 10px;
+	line-height: 12px;
+}
+.rest-client-request-body {
+	font-size: 11px;
+	margin-top: 20px;
+}
+.rest-client-response {
+	border: 1px solid #cccccc;
+	border-radius: 3px 3px 3px 3px;
+	padding: 5px;
+	min-height: 614px;
+}
+.rest-client-format-body {
+	margin-top: 10px;
+}
+.request-client-request-body-options {
+	overflow: hidden;
+	display: block;
+}
+.rest-client-editor {
+	height: 612px;
+	margin-top: 10px;
+}

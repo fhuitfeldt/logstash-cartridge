@@ -1,0 +1,15 @@
+
+MYTIME 20%{YEAR}-%{MONTHNUM}-%{MONTHDAY} %{HOUR}:?%{MINUTE}(?::?%{SECOND})?
+
+JAVALOGMESSAGE (.*)
+
+#2014-03-31 15:21:23,253
+JBOSS_DATESTAMP 20%{YEAR}-%{MONTHNUM}-%{MONTHDAY} %{HOUR}:?%{MINUTE}(?::?%{SECOND})
+
+#2014-03-31 14:12:12,042 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+JBOSS_LOG %{JBOSS_DATESTAMP:timestamp} \| %{LOGLEVEL:level} \| \[%{JAVACLASS:class}\] %{JAVALOGMESSAGE:logmessage}
+
+WORD_DASH (%{WORD}|\-) 
+
+
+THREADNAME \b(\w|-|\.)+\b

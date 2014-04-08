@@ -1,0 +1,310 @@
+[2014-04-02 12:36:19,837][INFO ][node                     ] [Sam Wilson] stopping ...
+[2014-04-02 12:36:19,891][INFO ][node                     ] [Sam Wilson] stopped
+[2014-04-02 12:36:19,892][INFO ][node                     ] [Sam Wilson] closing ...
+[2014-04-02 12:36:19,903][INFO ][node                     ] [Sam Wilson] closed
+[2014-04-02 12:45:50,468][INFO ][node                     ] [Mary Zero] version[1.1.0], pid[32981], build[2181e11/2014-03-25T15:59:51Z]
+[2014-04-02 12:45:50,469][INFO ][node                     ] [Mary Zero] initializing ...
+[2014-04-02 12:45:50,487][INFO ][plugins                  ] [Mary Zero] loaded [], sites []
+[2014-04-02 12:45:52,990][INFO ][node                     ] [Mary Zero] initialized
+[2014-04-02 12:45:52,990][INFO ][node                     ] [Mary Zero] starting ...
+[2014-04-02 12:45:53,085][INFO ][transport                ] [Mary Zero] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[localhost/127.0.0.1:9300]}
+[2014-04-02 12:45:56,131][INFO ][cluster.service          ] [Mary Zero] new_master [Mary Zero][CPNx5Rr9RsydNum23nEMpQ][MDK2K41WMDKQ4.local][inet[localhost/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2014-04-02 12:45:56,152][INFO ][discovery                ] [Mary Zero] elasticsearch/CPNx5Rr9RsydNum23nEMpQ
+[2014-04-02 12:45:56,168][INFO ][http                     ] [Mary Zero] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[localhost/127.0.0.1:9200]}
+[2014-04-02 12:45:56,189][INFO ][gateway                  ] [Mary Zero] recovered [0] indices into cluster_state
+[2014-04-02 12:45:56,190][INFO ][node                     ] [Mary Zero] started
+[2014-04-02 12:47:07,504][INFO ][cluster.service          ] [Mary Zero] added {[logstash-MDK2K41WMDKQ4.local-33009-4022][_lrs2-XCQxqdzs6c-1mspw][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-33009-4022][_lrs2-XCQxqdzs6c-1mspw][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 12:47:09,092][INFO ][cluster.metadata         ] [Mary Zero] [logstash-2014.04.02] creating index, cause [auto(bulk api)], shards [5]/[1], mappings [_default_]
+[2014-04-02 12:47:09,531][INFO ][cluster.metadata         ] [Mary Zero] [logstash-2014.04.02] update_mapping [logs] (dynamic)
+[2014-04-02 12:51:30,122][INFO ][cluster.service          ] [Mary Zero] removed {[logstash-MDK2K41WMDKQ4.local-33009-4022][_lrs2-XCQxqdzs6c-1mspw][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-33009-4022][_lrs2-XCQxqdzs6c-1mspw][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 12:55:28,113][INFO ][node                     ] [Mary Zero] stopping ...
+[2014-04-02 12:55:28,135][INFO ][node                     ] [Mary Zero] stopped
+[2014-04-02 12:55:28,135][INFO ][node                     ] [Mary Zero] closing ...
+[2014-04-02 12:55:28,138][INFO ][node                     ] [Mary Zero] closed
+[2014-04-02 12:55:29,304][INFO ][node                     ] [Caliban] version[1.1.0], pid[33155], build[2181e11/2014-03-25T15:59:51Z]
+[2014-04-02 12:55:29,305][INFO ][node                     ] [Caliban] initializing ...
+[2014-04-02 12:55:29,319][INFO ][plugins                  ] [Caliban] loaded [], sites []
+[2014-04-02 12:55:31,158][INFO ][node                     ] [Caliban] initialized
+[2014-04-02 12:55:31,158][INFO ][node                     ] [Caliban] starting ...
+[2014-04-02 12:55:31,228][INFO ][transport                ] [Caliban] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[localhost/127.0.0.1:9300]}
+[2014-04-02 12:55:34,266][INFO ][cluster.service          ] [Caliban] new_master [Caliban][e0JBm9dBR42hvpbisX-G_A][MDK2K41WMDKQ4.local][inet[localhost/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2014-04-02 12:55:34,292][INFO ][discovery                ] [Caliban] elasticsearch/e0JBm9dBR42hvpbisX-G_A
+[2014-04-02 12:55:34,304][INFO ][http                     ] [Caliban] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[localhost/127.0.0.1:9200]}
+[2014-04-02 12:55:34,325][INFO ][gateway                  ] [Caliban] recovered [0] indices into cluster_state
+[2014-04-02 12:55:34,326][INFO ][node                     ] [Caliban] started
+[2014-04-02 12:57:22,601][INFO ][cluster.service          ] [Caliban] added {[logstash-MDK2K41WMDKQ4.local-33202-4020][GPDoKvmoRXKIWCrIdJcgbg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-33202-4020][GPDoKvmoRXKIWCrIdJcgbg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 12:57:24,002][INFO ][cluster.metadata         ] [Caliban] [logstash-2014.04.02] creating index, cause [auto(bulk api)], shards [5]/[1], mappings [_default_]
+[2014-04-02 12:57:24,289][INFO ][cluster.metadata         ] [Caliban] [logstash-2014.04.02] update_mapping [logs] (dynamic)
+[2014-04-02 12:58:26,074][INFO ][cluster.service          ] [Caliban] removed {[logstash-MDK2K41WMDKQ4.local-33202-4020][GPDoKvmoRXKIWCrIdJcgbg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-33202-4020][GPDoKvmoRXKIWCrIdJcgbg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 14:07:40,861][INFO ][cluster.service          ] [Caliban] added {[logstash-MDK2K41WMDKQ4.local-34422-4020][pAeoFU0ISCO7HSanzBI-zQ][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-34422-4020][pAeoFU0ISCO7HSanzBI-zQ][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 14:09:14,234][INFO ][node                     ] [Caliban] stopping ...
+[2014-04-02 14:09:14,259][INFO ][node                     ] [Caliban] stopped
+[2014-04-02 14:09:14,260][INFO ][node                     ] [Caliban] closing ...
+[2014-04-02 14:09:14,265][INFO ][node                     ] [Caliban] closed
+[2014-04-02 14:09:15,641][INFO ][node                     ] [Anti-Venom] version[1.1.0], pid[34460], build[2181e11/2014-03-25T15:59:51Z]
+[2014-04-02 14:09:15,642][INFO ][node                     ] [Anti-Venom] initializing ...
+[2014-04-02 14:09:15,656][INFO ][plugins                  ] [Anti-Venom] loaded [], sites []
+[2014-04-02 14:09:17,474][INFO ][node                     ] [Anti-Venom] initialized
+[2014-04-02 14:09:17,474][INFO ][node                     ] [Anti-Venom] starting ...
+[2014-04-02 14:09:17,544][INFO ][transport                ] [Anti-Venom] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[localhost/127.0.0.1:9300]}
+[2014-04-02 14:09:19,801][INFO ][node                     ] [Anti-Venom] stopping ...
+[2014-04-02 14:09:19,809][INFO ][node                     ] [Anti-Venom] stopped
+[2014-04-02 14:09:19,809][INFO ][node                     ] [Anti-Venom] closing ...
+[2014-04-02 14:09:19,817][INFO ][node                     ] [Anti-Venom] closed
+[2014-04-02 14:09:21,947][INFO ][node                     ] [Laura Dean] version[1.1.0], pid[34479], build[2181e11/2014-03-25T15:59:51Z]
+[2014-04-02 14:09:21,947][INFO ][node                     ] [Laura Dean] initializing ...
+[2014-04-02 14:09:21,960][INFO ][plugins                  ] [Laura Dean] loaded [], sites []
+[2014-04-02 14:09:23,783][INFO ][node                     ] [Laura Dean] initialized
+[2014-04-02 14:09:23,783][INFO ][node                     ] [Laura Dean] starting ...
+[2014-04-02 14:09:23,852][INFO ][transport                ] [Laura Dean] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[localhost/127.0.0.1:9300]}
+[2014-04-02 14:09:26,894][INFO ][cluster.service          ] [Laura Dean] new_master [Laura Dean][lt1qbNNPTVub8ReBgkZmQw][MDK2K41WMDKQ4.local][inet[localhost/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2014-04-02 14:09:26,913][INFO ][discovery                ] [Laura Dean] elasticsearch/lt1qbNNPTVub8ReBgkZmQw
+[2014-04-02 14:09:26,924][INFO ][http                     ] [Laura Dean] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[localhost/127.0.0.1:9200]}
+[2014-04-02 14:09:26,944][INFO ][gateway                  ] [Laura Dean] recovered [0] indices into cluster_state
+[2014-04-02 14:09:26,945][INFO ][node                     ] [Laura Dean] started
+[2014-04-02 14:09:39,779][INFO ][cluster.service          ] [Laura Dean] added {[logstash-MDK2K41WMDKQ4.local-34486-4020][UWRU2yz2Rcik2CZKRASOhw][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-34486-4020][UWRU2yz2Rcik2CZKRASOhw][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 14:09:41,173][INFO ][cluster.metadata         ] [Laura Dean] [logstash-2014.04.02] creating index, cause [auto(bulk api)], shards [5]/[1], mappings [_default_]
+[2014-04-02 14:09:41,483][INFO ][cluster.metadata         ] [Laura Dean] [logstash-2014.04.02] update_mapping [logs] (dynamic)
+[2014-04-02 14:12:48,824][INFO ][cluster.service          ] [Laura Dean] removed {[logstash-MDK2K41WMDKQ4.local-34486-4020][UWRU2yz2Rcik2CZKRASOhw][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-34486-4020][UWRU2yz2Rcik2CZKRASOhw][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 14:13:13,725][INFO ][cluster.service          ] [Laura Dean] added {[logstash-MDK2K41WMDKQ4.local-34564-4020][wTkRvVmETEavlkmUl6Hj9A][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-34564-4020][wTkRvVmETEavlkmUl6Hj9A][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 14:13:14,840][INFO ][cluster.metadata         ] [Laura Dean] [logstash-2014.04.02] update_mapping [innotech] (dynamic)
+[2014-04-02 14:15:50,162][INFO ][cluster.service          ] [Laura Dean] removed {[logstash-MDK2K41WMDKQ4.local-34564-4020][wTkRvVmETEavlkmUl6Hj9A][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-34564-4020][wTkRvVmETEavlkmUl6Hj9A][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 14:19:16,248][INFO ][cluster.service          ] [Laura Dean] added {[logstash-MDK2K41WMDKQ4.local-34661-4020][Txmowr8fSS-kOBGYlwMzbA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-34661-4020][Txmowr8fSS-kOBGYlwMzbA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 14:19:38,312][INFO ][cluster.service          ] [Laura Dean] removed {[logstash-MDK2K41WMDKQ4.local-34661-4020][Txmowr8fSS-kOBGYlwMzbA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-34661-4020][Txmowr8fSS-kOBGYlwMzbA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 14:19:58,586][INFO ][cluster.service          ] [Laura Dean] added {[logstash-MDK2K41WMDKQ4.local-34687-4020][Od-eWAG1TO6ttMFPP3DUBA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-34687-4020][Od-eWAG1TO6ttMFPP3DUBA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 14:20:46,062][INFO ][cluster.service          ] [Laura Dean] removed {[logstash-MDK2K41WMDKQ4.local-34687-4020][Od-eWAG1TO6ttMFPP3DUBA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-34687-4020][Od-eWAG1TO6ttMFPP3DUBA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 14:21:30,855][INFO ][cluster.service          ] [Laura Dean] added {[logstash-MDK2K41WMDKQ4.local-34732-4020][KXaf0taCTDqc-IscIn6iMg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-34732-4020][KXaf0taCTDqc-IscIn6iMg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 14:21:48,868][INFO ][cluster.service          ] [Laura Dean] removed {[logstash-MDK2K41WMDKQ4.local-34732-4020][KXaf0taCTDqc-IscIn6iMg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-34732-4020][KXaf0taCTDqc-IscIn6iMg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 14:22:09,464][INFO ][cluster.service          ] [Laura Dean] added {[logstash-MDK2K41WMDKQ4.local-34757-4020][vnTt5bhzSzS_KObV5jNL8A][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-34757-4020][vnTt5bhzSzS_KObV5jNL8A][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 14:22:36,403][INFO ][node                     ] [Laura Dean] stopping ...
+[2014-04-02 14:22:36,434][INFO ][node                     ] [Laura Dean] stopped
+[2014-04-02 14:22:36,434][INFO ][node                     ] [Laura Dean] closing ...
+[2014-04-02 14:22:36,440][INFO ][node                     ] [Laura Dean] closed
+[2014-04-02 14:22:38,102][INFO ][node                     ] [War Eagle] version[1.1.0], pid[34779], build[2181e11/2014-03-25T15:59:51Z]
+[2014-04-02 14:22:38,103][INFO ][node                     ] [War Eagle] initializing ...
+[2014-04-02 14:22:38,116][INFO ][plugins                  ] [War Eagle] loaded [], sites []
+[2014-04-02 14:22:39,949][INFO ][node                     ] [War Eagle] initialized
+[2014-04-02 14:22:39,949][INFO ][node                     ] [War Eagle] starting ...
+[2014-04-02 14:22:40,019][INFO ][transport                ] [War Eagle] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[localhost/127.0.0.1:9300]}
+[2014-04-02 14:22:43,055][INFO ][cluster.service          ] [War Eagle] new_master [War Eagle][ZXwaX9X4T3i5NpLLfQm8Yg][MDK2K41WMDKQ4.local][inet[localhost/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2014-04-02 14:22:43,072][INFO ][discovery                ] [War Eagle] elasticsearch/ZXwaX9X4T3i5NpLLfQm8Yg
+[2014-04-02 14:22:43,088][INFO ][http                     ] [War Eagle] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[localhost/127.0.0.1:9200]}
+[2014-04-02 14:22:43,114][INFO ][gateway                  ] [War Eagle] recovered [0] indices into cluster_state
+[2014-04-02 14:22:43,115][INFO ][node                     ] [War Eagle] started
+[2014-04-02 14:22:52,680][INFO ][cluster.service          ] [War Eagle] added {[logstash-MDK2K41WMDKQ4.local-34789-4020][5gT8Bl1cR8ercYCvJ371ow][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-34789-4020][5gT8Bl1cR8ercYCvJ371ow][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 14:23:39,863][INFO ][cluster.service          ] [War Eagle] removed {[logstash-MDK2K41WMDKQ4.local-34789-4020][5gT8Bl1cR8ercYCvJ371ow][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-34789-4020][5gT8Bl1cR8ercYCvJ371ow][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 14:24:10,848][INFO ][cluster.service          ] [War Eagle] added {[logstash-MDK2K41WMDKQ4.local-34824-4020][V4Lw5AoJSnWoygZ1EPiW0A][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-34824-4020][V4Lw5AoJSnWoygZ1EPiW0A][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 14:25:00,299][INFO ][cluster.service          ] [War Eagle] removed {[logstash-MDK2K41WMDKQ4.local-34824-4020][V4Lw5AoJSnWoygZ1EPiW0A][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-34824-4020][V4Lw5AoJSnWoygZ1EPiW0A][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 14:25:02,938][INFO ][node                     ] [War Eagle] stopping ...
+[2014-04-02 14:25:02,955][INFO ][node                     ] [War Eagle] stopped
+[2014-04-02 14:25:02,956][INFO ][node                     ] [War Eagle] closing ...
+[2014-04-02 14:25:02,962][INFO ][node                     ] [War Eagle] closed
+[2014-04-02 14:25:05,521][INFO ][node                     ] [Lancer] version[1.1.0], pid[34858], build[2181e11/2014-03-25T15:59:51Z]
+[2014-04-02 14:25:05,521][INFO ][node                     ] [Lancer] initializing ...
+[2014-04-02 14:25:05,537][INFO ][plugins                  ] [Lancer] loaded [], sites []
+[2014-04-02 14:25:07,350][INFO ][node                     ] [Lancer] initialized
+[2014-04-02 14:25:07,350][INFO ][node                     ] [Lancer] starting ...
+[2014-04-02 14:25:07,428][INFO ][transport                ] [Lancer] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[localhost/127.0.0.1:9300]}
+[2014-04-02 14:25:10,467][INFO ][cluster.service          ] [Lancer] new_master [Lancer][c1ni4f5QSF2rGo8QiWZnSQ][MDK2K41WMDKQ4.local][inet[localhost/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2014-04-02 14:25:10,491][INFO ][discovery                ] [Lancer] elasticsearch/c1ni4f5QSF2rGo8QiWZnSQ
+[2014-04-02 14:25:10,503][INFO ][http                     ] [Lancer] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[localhost/127.0.0.1:9200]}
+[2014-04-02 14:25:10,524][INFO ][gateway                  ] [Lancer] recovered [0] indices into cluster_state
+[2014-04-02 14:25:10,524][INFO ][node                     ] [Lancer] started
+[2014-04-02 14:25:26,608][INFO ][cluster.service          ] [Lancer] added {[logstash-MDK2K41WMDKQ4.local-34869-4020][Bu9wtEB9T7O5gdVK2VXNLg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-34869-4020][Bu9wtEB9T7O5gdVK2VXNLg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 14:25:55,742][INFO ][cluster.service          ] [Lancer] removed {[logstash-MDK2K41WMDKQ4.local-34869-4020][Bu9wtEB9T7O5gdVK2VXNLg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-34869-4020][Bu9wtEB9T7O5gdVK2VXNLg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 14:26:17,333][INFO ][cluster.service          ] [Lancer] added {[logstash-MDK2K41WMDKQ4.local-34896-4020][gwe1kZBhQvaZI7hZPRtfIg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-34896-4020][gwe1kZBhQvaZI7hZPRtfIg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 14:26:54,746][INFO ][cluster.service          ] [Lancer] removed {[logstash-MDK2K41WMDKQ4.local-34896-4020][gwe1kZBhQvaZI7hZPRtfIg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-34896-4020][gwe1kZBhQvaZI7hZPRtfIg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 14:27:22,187][INFO ][node                     ] [Lancer] stopping ...
+[2014-04-02 14:27:22,206][INFO ][node                     ] [Lancer] stopped
+[2014-04-02 14:27:22,206][INFO ][node                     ] [Lancer] closing ...
+[2014-04-02 14:27:22,211][INFO ][node                     ] [Lancer] closed
+[2014-04-02 14:27:24,236][INFO ][node                     ] [Mentus] version[1.1.0], pid[34934], build[2181e11/2014-03-25T15:59:51Z]
+[2014-04-02 14:27:24,236][INFO ][node                     ] [Mentus] initializing ...
+[2014-04-02 14:27:24,249][INFO ][plugins                  ] [Mentus] loaded [], sites []
+[2014-04-02 14:27:26,069][INFO ][node                     ] [Mentus] initialized
+[2014-04-02 14:27:26,069][INFO ][node                     ] [Mentus] starting ...
+[2014-04-02 14:27:26,143][INFO ][transport                ] [Mentus] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[localhost/127.0.0.1:9300]}
+[2014-04-02 14:27:29,191][INFO ][cluster.service          ] [Mentus] new_master [Mentus][TB2Bl8JYTuehAwewy8maXQ][MDK2K41WMDKQ4.local][inet[localhost/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2014-04-02 14:27:29,201][INFO ][discovery                ] [Mentus] elasticsearch/TB2Bl8JYTuehAwewy8maXQ
+[2014-04-02 14:27:29,212][INFO ][http                     ] [Mentus] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[localhost/127.0.0.1:9200]}
+[2014-04-02 14:27:29,231][INFO ][gateway                  ] [Mentus] recovered [0] indices into cluster_state
+[2014-04-02 14:27:29,232][INFO ][node                     ] [Mentus] started
+[2014-04-02 14:27:45,078][INFO ][cluster.service          ] [Mentus] added {[logstash-MDK2K41WMDKQ4.local-34944-4020][vvXH8WyrTJWIKIP5qXRm9g][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-34944-4020][vvXH8WyrTJWIKIP5qXRm9g][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 14:28:20,615][INFO ][cluster.service          ] [Mentus] removed {[logstash-MDK2K41WMDKQ4.local-34944-4020][vvXH8WyrTJWIKIP5qXRm9g][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-34944-4020][vvXH8WyrTJWIKIP5qXRm9g][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 14:31:40,463][INFO ][cluster.service          ] [Mentus] added {[logstash-MDK2K41WMDKQ4.local-35069-4020][if-mnaEGRc-jA2F_8j6dRA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-35069-4020][if-mnaEGRc-jA2F_8j6dRA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 14:31:41,808][INFO ][cluster.metadata         ] [Mentus] [logstash-2014.04.02] creating index, cause [auto(bulk api)], shards [5]/[1], mappings [_default_]
+[2014-04-02 14:31:42,078][INFO ][cluster.metadata         ] [Mentus] [logstash-2014.04.02] update_mapping [innotech] (dynamic)
+[2014-04-02 14:31:42,823][INFO ][cluster.service          ] [Mentus] removed {[logstash-MDK2K41WMDKQ4.local-35069-4020][if-mnaEGRc-jA2F_8j6dRA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-35069-4020][if-mnaEGRc-jA2F_8j6dRA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 14:31:56,166][INFO ][cluster.service          ] [Mentus] added {[logstash-MDK2K41WMDKQ4.local-35088-4020][ejfTZpGLQYmAkTul5Nz-uw][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-35088-4020][ejfTZpGLQYmAkTul5Nz-uw][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 14:32:32,743][INFO ][cluster.service          ] [Mentus] removed {[logstash-MDK2K41WMDKQ4.local-35088-4020][ejfTZpGLQYmAkTul5Nz-uw][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-35088-4020][ejfTZpGLQYmAkTul5Nz-uw][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 14:33:17,799][INFO ][cluster.service          ] [Mentus] added {[logstash-MDK2K41WMDKQ4.local-35127-4020][-YFhOzNVQ2ervd7ATtxkUA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-35127-4020][-YFhOzNVQ2ervd7ATtxkUA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 14:33:18,899][INFO ][cluster.metadata         ] [Mentus] [logstash-2014.04.02] update_mapping [innotech] (dynamic)
+[2014-04-02 14:33:37,795][INFO ][cluster.service          ] [Mentus] removed {[logstash-MDK2K41WMDKQ4.local-35127-4020][-YFhOzNVQ2ervd7ATtxkUA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-35127-4020][-YFhOzNVQ2ervd7ATtxkUA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 14:34:08,428][INFO ][cluster.service          ] [Mentus] added {[logstash-MDK2K41WMDKQ4.local-35161-4020][U1UC2faSSHqdLbs2jkCYfA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-35161-4020][U1UC2faSSHqdLbs2jkCYfA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 14:34:09,527][INFO ][cluster.metadata         ] [Mentus] [logstash-2014.04.02] update_mapping [jbosslog] (dynamic)
+[2014-04-02 14:34:10,694][INFO ][cluster.service          ] [Mentus] removed {[logstash-MDK2K41WMDKQ4.local-35161-4020][U1UC2faSSHqdLbs2jkCYfA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-35161-4020][U1UC2faSSHqdLbs2jkCYfA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 14:34:45,199][INFO ][cluster.service          ] [Mentus] added {[logstash-MDK2K41WMDKQ4.local-35191-4020][gT7PQ1vLQ2etDB18l9qLIg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-35191-4020][gT7PQ1vLQ2etDB18l9qLIg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 14:34:46,306][INFO ][cluster.metadata         ] [Mentus] [logstash-2014.04.02] update_mapping [jbosslog] (dynamic)
+[2014-04-02 14:34:47,892][INFO ][cluster.service          ] [Mentus] removed {[logstash-MDK2K41WMDKQ4.local-35191-4020][gT7PQ1vLQ2etDB18l9qLIg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-35191-4020][gT7PQ1vLQ2etDB18l9qLIg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 14:38:49,483][INFO ][cluster.service          ] [Mentus] added {[logstash-MDK2K41WMDKQ4.local-35264-4020][sPFMduDTTmGOTJipoz3ayQ][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-35264-4020][sPFMduDTTmGOTJipoz3ayQ][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 14:38:51,919][INFO ][cluster.service          ] [Mentus] removed {[logstash-MDK2K41WMDKQ4.local-35264-4020][sPFMduDTTmGOTJipoz3ayQ][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-35264-4020][sPFMduDTTmGOTJipoz3ayQ][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 14:39:17,643][INFO ][cluster.service          ] [Mentus] added {[logstash-MDK2K41WMDKQ4.local-35288-4020][txo8rzzXT6qlVYeawq8_Tw][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-35288-4020][txo8rzzXT6qlVYeawq8_Tw][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 14:39:18,734][DEBUG][action.bulk              ] [Mentus] [logstash-2014.04.02][0] failed to execute bulk item (index) index {[logstash-2014.04.02][jbosslog][_qTDsHZeTGGk3JlXQn5Kcg], source[{"message":"2014-02-19 20:59:59 Hi, Peter. What's happening? We need to talk about your TPS reports.","@version":"1","@timestamp":"2014-04-02T12:39:12.461Z","type":"jbosslog","host":"MDK2K41WMDKQ4.local","path":"/Users/fmadsen/branches/logstash-1.4.0/server2.log","date":"2014-02-19 20:59:59","tags":["to_%{name}"]}]}
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse [date]
+	at org.elasticsearch.index.mapper.core.AbstractFieldMapper.parse(AbstractFieldMapper.java:418)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.serializeValue(ObjectMapper.java:616)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.parse(ObjectMapper.java:469)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:515)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:462)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareCreate(InternalIndexShard.java:363)
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardIndexOperation(TransportShardBulkAction.java:406)
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:157)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:556)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:426)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.elasticsearch.index.mapper.MapperParsingException: failed to parse date field [2014-02-19 20:59:59], tried both date format [dateOptionalTime], and timestamp number with locale []
+	at org.elasticsearch.index.mapper.core.DateFieldMapper.parseStringValue(DateFieldMapper.java:562)
+	at org.elasticsearch.index.mapper.core.DateFieldMapper.innerParseCreateField(DateFieldMapper.java:490)
+	at org.elasticsearch.index.mapper.core.NumberFieldMapper.parseCreateField(NumberFieldMapper.java:215)
+	at org.elasticsearch.index.mapper.core.AbstractFieldMapper.parse(AbstractFieldMapper.java:408)
+	... 12 more
+Caused by: java.lang.IllegalArgumentException: Invalid format: "2014-02-19 20:59:59" is malformed at " 20:59:59"
+	at org.elasticsearch.common.joda.time.format.DateTimeFormatter.parseMillis(DateTimeFormatter.java:754)
+	at org.elasticsearch.index.mapper.core.DateFieldMapper.parseStringValue(DateFieldMapper.java:556)
+	... 15 more
+[2014-04-02 14:39:40,082][INFO ][cluster.service          ] [Mentus] removed {[logstash-MDK2K41WMDKQ4.local-35288-4020][txo8rzzXT6qlVYeawq8_Tw][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-35288-4020][txo8rzzXT6qlVYeawq8_Tw][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 14:40:02,205][INFO ][cluster.service          ] [Mentus] added {[logstash-MDK2K41WMDKQ4.local-35322-4020][qYy2uTqhSICaqushzUKGzQ][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-35322-4020][qYy2uTqhSICaqushzUKGzQ][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 14:40:03,297][DEBUG][action.bulk              ] [Mentus] [logstash-2014.04.02][1] failed to execute bulk item (index) index {[logstash-2014.04.02][jbosslog][jIDGwM4eTh2g_BCNIMAzwQ], source[{"message":"2014-02-19 20:59:59 Hi, Peter. What's happening? We need to talk about your TPS reports.","@version":"1","@timestamp":"2014-04-02T12:39:57.076Z","type":"jbosslog","host":"MDK2K41WMDKQ4.local","path":"/Users/fmadsen/branches/logstash-1.4.0/server2.log","date":"2014-02-19 20:59:59","tags":["to_%{name}"]}]}
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse [date]
+	at org.elasticsearch.index.mapper.core.AbstractFieldMapper.parse(AbstractFieldMapper.java:418)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.serializeValue(ObjectMapper.java:616)
+	at org.elasticsearch.index.mapper.object.ObjectMapper.parse(ObjectMapper.java:469)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:515)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:462)
+	at org.elasticsearch.index.shard.service.InternalIndexShard.prepareCreate(InternalIndexShard.java:363)
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardIndexOperation(TransportShardBulkAction.java:406)
+	at org.elasticsearch.action.bulk.TransportShardBulkAction.shardOperationOnPrimary(TransportShardBulkAction.java:157)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:556)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:426)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.elasticsearch.index.mapper.MapperParsingException: failed to parse date field [2014-02-19 20:59:59], tried both date format [dateOptionalTime], and timestamp number with locale []
+	at org.elasticsearch.index.mapper.core.DateFieldMapper.parseStringValue(DateFieldMapper.java:562)
+	at org.elasticsearch.index.mapper.core.DateFieldMapper.innerParseCreateField(DateFieldMapper.java:490)
+	at org.elasticsearch.index.mapper.core.NumberFieldMapper.parseCreateField(NumberFieldMapper.java:215)
+	at org.elasticsearch.index.mapper.core.AbstractFieldMapper.parse(AbstractFieldMapper.java:408)
+	... 12 more
+Caused by: java.lang.IllegalArgumentException: Invalid format: "2014-02-19 20:59:59" is malformed at " 20:59:59"
+	at org.elasticsearch.common.joda.time.format.DateTimeFormatter.parseMillis(DateTimeFormatter.java:754)
+	at org.elasticsearch.index.mapper.core.DateFieldMapper.parseStringValue(DateFieldMapper.java:556)
+	... 15 more
+[2014-04-02 14:40:19,313][INFO ][cluster.service          ] [Mentus] removed {[logstash-MDK2K41WMDKQ4.local-35322-4020][qYy2uTqhSICaqushzUKGzQ][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-35322-4020][qYy2uTqhSICaqushzUKGzQ][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 14:40:24,252][INFO ][node                     ] [Mentus] stopping ...
+[2014-04-02 14:40:24,274][INFO ][node                     ] [Mentus] stopped
+[2014-04-02 14:40:24,275][INFO ][node                     ] [Mentus] closing ...
+[2014-04-02 14:40:24,281][INFO ][node                     ] [Mentus] closed
+[2014-04-02 15:36:48,323][INFO ][node                     ] [Alcmena] version[1.1.0], pid[36586], build[2181e11/2014-03-25T15:59:51Z]
+[2014-04-02 15:36:48,324][INFO ][node                     ] [Alcmena] initializing ...
+[2014-04-02 15:36:48,337][INFO ][plugins                  ] [Alcmena] loaded [], sites []
+[2014-04-02 15:36:50,171][INFO ][node                     ] [Alcmena] initialized
+[2014-04-02 15:36:50,171][INFO ][node                     ] [Alcmena] starting ...
+[2014-04-02 15:36:50,250][INFO ][transport                ] [Alcmena] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[localhost/127.0.0.1:9300]}
+[2014-04-02 15:36:53,285][INFO ][cluster.service          ] [Alcmena] new_master [Alcmena][mUt1a23DQkOwlzTJ4dMsJA][MDK2K41WMDKQ4.local][inet[localhost/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2014-04-02 15:36:53,305][INFO ][discovery                ] [Alcmena] elasticsearch/mUt1a23DQkOwlzTJ4dMsJA
+[2014-04-02 15:36:53,316][INFO ][http                     ] [Alcmena] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[localhost/127.0.0.1:9200]}
+[2014-04-02 15:36:53,337][INFO ][gateway                  ] [Alcmena] recovered [0] indices into cluster_state
+[2014-04-02 15:36:53,337][INFO ][node                     ] [Alcmena] started
+[2014-04-02 15:37:09,252][INFO ][cluster.service          ] [Alcmena] added {[logstash-MDK2K41WMDKQ4.local-36600-4020][ze6AqV3NQIyTTaea4foukA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-36600-4020][ze6AqV3NQIyTTaea4foukA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 15:37:10,638][INFO ][cluster.metadata         ] [Alcmena] [logstash-2013.02.19] creating index, cause [auto(bulk api)], shards [5]/[1], mappings [_default_]
+[2014-04-02 15:37:10,917][INFO ][cluster.metadata         ] [Alcmena] [logstash-2014.04.02] creating index, cause [auto(bulk api)], shards [5]/[1], mappings [_default_]
+[2014-04-02 15:37:10,971][INFO ][cluster.metadata         ] [Alcmena] [logstash-2014.02.14] creating index, cause [auto(bulk api)], shards [5]/[1], mappings [_default_]
+[2014-04-02 15:37:11,287][INFO ][cluster.metadata         ] [Alcmena] [logstash-2014.04.02] update_mapping [jbosslog] (dynamic)
+[2014-04-02 15:39:36,711][INFO ][cluster.service          ] [Alcmena] removed {[logstash-MDK2K41WMDKQ4.local-36600-4020][ze6AqV3NQIyTTaea4foukA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-36600-4020][ze6AqV3NQIyTTaea4foukA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 15:48:28,934][INFO ][node                     ] [Alcmena] stopping ...
+[2014-04-02 15:48:28,967][INFO ][node                     ] [Alcmena] stopped
+[2014-04-02 15:48:28,967][INFO ][node                     ] [Alcmena] closing ...
+[2014-04-02 15:48:28,973][INFO ][node                     ] [Alcmena] closed
+[2014-04-02 15:48:30,318][INFO ][node                     ] [Volpan] version[1.1.0], pid[37011], build[2181e11/2014-03-25T15:59:51Z]
+[2014-04-02 15:48:30,318][INFO ][node                     ] [Volpan] initializing ...
+[2014-04-02 15:48:30,333][INFO ][plugins                  ] [Volpan] loaded [], sites []
+[2014-04-02 15:48:32,165][INFO ][node                     ] [Volpan] initialized
+[2014-04-02 15:48:32,165][INFO ][node                     ] [Volpan] starting ...
+[2014-04-02 15:48:32,234][INFO ][transport                ] [Volpan] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[localhost/127.0.0.1:9300]}
+[2014-04-02 15:48:35,271][INFO ][cluster.service          ] [Volpan] new_master [Volpan][-PAJqVI3Qd2ZhNajgHz4Eg][MDK2K41WMDKQ4.local][inet[localhost/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2014-04-02 15:48:35,293][INFO ][discovery                ] [Volpan] elasticsearch/-PAJqVI3Qd2ZhNajgHz4Eg
+[2014-04-02 15:48:35,305][INFO ][http                     ] [Volpan] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[localhost/127.0.0.1:9200]}
+[2014-04-02 15:48:35,326][INFO ][gateway                  ] [Volpan] recovered [0] indices into cluster_state
+[2014-04-02 15:48:35,327][INFO ][node                     ] [Volpan] started
+[2014-04-02 15:48:51,966][INFO ][cluster.service          ] [Volpan] added {[logstash-MDK2K41WMDKQ4.local-37022-4020][1uMCIMnaTfKJDME11kl7Dg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-37022-4020][1uMCIMnaTfKJDME11kl7Dg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 15:48:53,356][INFO ][cluster.metadata         ] [Volpan] [logstash-2014.04.02] creating index, cause [auto(bulk api)], shards [5]/[1], mappings [_default_]
+[2014-04-02 15:48:53,574][INFO ][cluster.metadata         ] [Volpan] [logstash-2014.02.14] creating index, cause [auto(bulk api)], shards [5]/[1], mappings [_default_]
+[2014-04-02 15:49:21,659][INFO ][cluster.service          ] [Volpan] removed {[logstash-MDK2K41WMDKQ4.local-37022-4020][1uMCIMnaTfKJDME11kl7Dg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-37022-4020][1uMCIMnaTfKJDME11kl7Dg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 15:51:11,938][INFO ][cluster.service          ] [Volpan] added {[logstash-MDK2K41WMDKQ4.local-37068-4020][z2D0MiF2R1uTwQlej_3y9g][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-37068-4020][z2D0MiF2R1uTwQlej_3y9g][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 15:51:12,107][INFO ][cluster.metadata         ] [Volpan] [logstash-2014.04.02] update_mapping [jbosslog] (dynamic)
+[2014-04-02 15:51:12,463][INFO ][cluster.service          ] [Volpan] removed {[logstash-MDK2K41WMDKQ4.local-37068-4020][z2D0MiF2R1uTwQlej_3y9g][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-37068-4020][z2D0MiF2R1uTwQlej_3y9g][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 15:51:30,043][INFO ][cluster.service          ] [Volpan] added {[logstash-MDK2K41WMDKQ4.local-37091-4020][Grt0ToP_T6aVpnnsUwpLpg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-37091-4020][Grt0ToP_T6aVpnnsUwpLpg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 15:51:41,989][INFO ][cluster.service          ] [Volpan] removed {[logstash-MDK2K41WMDKQ4.local-37091-4020][Grt0ToP_T6aVpnnsUwpLpg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-37091-4020][Grt0ToP_T6aVpnnsUwpLpg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 15:51:59,543][INFO ][cluster.service          ] [Volpan] added {[logstash-MDK2K41WMDKQ4.local-37110-4020][-pI8KpaeRhu4h2HWD0NLlg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-37110-4020][-pI8KpaeRhu4h2HWD0NLlg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 15:52:15,540][INFO ][cluster.service          ] [Volpan] removed {[logstash-MDK2K41WMDKQ4.local-37110-4020][-pI8KpaeRhu4h2HWD0NLlg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-37110-4020][-pI8KpaeRhu4h2HWD0NLlg][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 15:52:40,957][INFO ][cluster.service          ] [Volpan] added {[logstash-MDK2K41WMDKQ4.local-37135-4020][itvbifu6TmiKq3LZrGFDwQ][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-37135-4020][itvbifu6TmiKq3LZrGFDwQ][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 15:53:37,367][INFO ][cluster.service          ] [Volpan] removed {[logstash-MDK2K41WMDKQ4.local-37135-4020][itvbifu6TmiKq3LZrGFDwQ][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-37135-4020][itvbifu6TmiKq3LZrGFDwQ][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 15:55:25,420][INFO ][cluster.service          ] [Volpan] added {[logstash-MDK2K41WMDKQ4.local-37182-4020][j8_cSSedQNiEvE9uWFTGmA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-37182-4020][j8_cSSedQNiEvE9uWFTGmA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}])
+[2014-04-02 15:55:28,151][INFO ][cluster.service          ] [Volpan] removed {[logstash-MDK2K41WMDKQ4.local-37182-4020][j8_cSSedQNiEvE9uWFTGmA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-37182-4020][j8_cSSedQNiEvE9uWFTGmA][MDK2K41WMDKQ4.local][inet[/10.216.76.2:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 17:43:54,109][INFO ][node                     ] [Volpan] stopping ...
+[2014-04-02 17:43:54,145][INFO ][node                     ] [Volpan] stopped
+[2014-04-02 17:43:54,145][INFO ][node                     ] [Volpan] closing ...
+[2014-04-02 17:43:54,151][INFO ][node                     ] [Volpan] closed
+[2014-04-02 17:43:55,668][INFO ][node                     ] [Fabian Cortez] version[1.1.0], pid[38943], build[2181e11/2014-03-25T15:59:51Z]
+[2014-04-02 17:43:55,668][INFO ][node                     ] [Fabian Cortez] initializing ...
+[2014-04-02 17:43:55,681][INFO ][plugins                  ] [Fabian Cortez] loaded [], sites []
+[2014-04-02 17:43:57,495][INFO ][node                     ] [Fabian Cortez] initialized
+[2014-04-02 17:43:57,495][INFO ][node                     ] [Fabian Cortez] starting ...
+[2014-04-02 17:43:57,564][INFO ][transport                ] [Fabian Cortez] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[localhost/127.0.0.1:9300]}
+[2014-04-02 17:44:02,101][INFO ][cluster.service          ] [Fabian Cortez] new_master [Fabian Cortez][nAjKVnMVQfKYaMyvuv-vEw][MDK2K41WMDKQ4.local][inet[localhost/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2014-04-02 17:44:02,127][INFO ][discovery                ] [Fabian Cortez] elasticsearch/nAjKVnMVQfKYaMyvuv-vEw
+[2014-04-02 17:44:02,138][INFO ][http                     ] [Fabian Cortez] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[localhost/127.0.0.1:9200]}
+[2014-04-02 17:44:02,153][INFO ][gateway                  ] [Fabian Cortez] recovered [0] indices into cluster_state
+[2014-04-02 17:44:02,154][INFO ][node                     ] [Fabian Cortez] started
+[2014-04-02 17:44:58,078][INFO ][cluster.service          ] [Fabian Cortez] added {[logstash-MDK2K41WMDKQ4.local-38988-4020][84BirtInT2yjMjiEojygFg][MDK2K41WMDKQ4.local][inet[/172.20.10.6:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-38988-4020][84BirtInT2yjMjiEojygFg][MDK2K41WMDKQ4.local][inet[/172.20.10.6:9300]]{client=true, data=false}])
+[2014-04-02 17:44:59,480][INFO ][cluster.metadata         ] [Fabian Cortez] [logstash-2014.02.14] creating index, cause [auto(bulk api)], shards [5]/[1], mappings [_default_]
+[2014-04-02 17:44:59,739][INFO ][cluster.metadata         ] [Fabian Cortez] [logstash-2014.02.14] update_mapping [jbosslog] (dynamic)
+[2014-04-02 17:45:54,720][INFO ][cluster.service          ] [Fabian Cortez] removed {[logstash-MDK2K41WMDKQ4.local-38988-4020][84BirtInT2yjMjiEojygFg][MDK2K41WMDKQ4.local][inet[/172.20.10.6:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-38988-4020][84BirtInT2yjMjiEojygFg][MDK2K41WMDKQ4.local][inet[/172.20.10.6:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-04-02 17:45:57,004][INFO ][node                     ] [Fabian Cortez] stopping ...
+[2014-04-02 17:45:57,034][INFO ][node                     ] [Fabian Cortez] stopped
+[2014-04-02 17:45:57,034][INFO ][node                     ] [Fabian Cortez] closing ...
+[2014-04-02 17:45:57,038][INFO ][node                     ] [Fabian Cortez] closed
+[2014-04-02 17:45:59,733][INFO ][node                     ] [Ogress] version[1.1.0], pid[39022], build[2181e11/2014-03-25T15:59:51Z]
+[2014-04-02 17:45:59,733][INFO ][node                     ] [Ogress] initializing ...
+[2014-04-02 17:45:59,746][INFO ][plugins                  ] [Ogress] loaded [], sites []
+[2014-04-02 17:46:01,573][INFO ][node                     ] [Ogress] initialized
+[2014-04-02 17:46:01,573][INFO ][node                     ] [Ogress] starting ...
+[2014-04-02 17:46:01,649][INFO ][transport                ] [Ogress] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[localhost/127.0.0.1:9300]}
+[2014-04-02 17:46:06,188][INFO ][cluster.service          ] [Ogress] new_master [Ogress][c4aldvV9TPWnW7G_Y9eYbw][MDK2K41WMDKQ4.local][inet[localhost/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2014-04-02 17:46:06,222][INFO ][discovery                ] [Ogress] elasticsearch/c4aldvV9TPWnW7G_Y9eYbw
+[2014-04-02 17:46:06,234][INFO ][http                     ] [Ogress] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[localhost/127.0.0.1:9200]}
+[2014-04-02 17:46:06,249][INFO ][gateway                  ] [Ogress] recovered [0] indices into cluster_state
+[2014-04-02 17:46:06,249][INFO ][node                     ] [Ogress] started
+[2014-04-02 17:46:23,492][INFO ][cluster.service          ] [Ogress] added {[logstash-MDK2K41WMDKQ4.local-39032-4020][siulrpvMSHiTvumwSB6ASg][MDK2K41WMDKQ4.local][inet[/172.20.10.6:9300]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-MDK2K41WMDKQ4.local-39032-4020][siulrpvMSHiTvumwSB6ASg][MDK2K41WMDKQ4.local][inet[/172.20.10.6:9300]]{client=true, data=false}])
+[2014-04-02 17:46:24,872][INFO ][cluster.metadata         ] [Ogress] [logstash-2014.02.14] creating index, cause [auto(bulk api)], shards [5]/[1], mappings [_default_]
+[2014-04-02 17:46:25,230][INFO ][cluster.metadata         ] [Ogress] [logstash-2014.02.14] update_mapping [jbosslog] (dynamic)
+[2014-04-02 20:12:55,256][WARN ][transport.netty          ] [Ogress] exception caught on transport layer [[id: 0x5eebda9b, /172.20.10.6:52323 => /172.20.10.6:9300]], closing connection
+java.io.IOException: Operation timed out
+	at sun.nio.ch.FileDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:21)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:198)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:166)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:245)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+[2014-04-02 20:13:26,063][INFO ][cluster.service          ] [Ogress] removed {[logstash-MDK2K41WMDKQ4.local-39032-4020][siulrpvMSHiTvumwSB6ASg][MDK2K41WMDKQ4.local][inet[/172.20.10.6:9300]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-MDK2K41WMDKQ4.local-39032-4020][siulrpvMSHiTvumwSB6ASg][MDK2K41WMDKQ4.local][inet[/172.20.10.6:9300]]{client=true, data=false}), reason transport disconnected (with verified connect)
