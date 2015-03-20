@@ -8,8 +8,12 @@ JBOSS_DATESTAMP 20%{YEAR}-%{MONTHNUM}-%{MONTHDAY} %{HOUR}:?%{MINUTE}(?::?%{SECON
 
 #2014-03-31 14:12:12,042 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
 JBOSS_LOG %{JBOSS_DATESTAMP:timestamp} \| %{LOGLEVEL:level} \| \[%{JAVACLASS:class}\] %{JAVALOGMESSAGE:logmessage}
+JOB_NAME \b(\w|-|\.)+\b
+JOB_START_DATE \b(\w|/|\.)+\b
+JOB_START_TIME \b(\w|:|\.)+\b
+JOB_TIME \b(\w\.)+\b
 
-WORD_DASH (%{WORD}|\-) 
+WORD_DASH (%{WORD}|\-)
 
 
 THREADNAME \b(\w|-|\.)+\b
