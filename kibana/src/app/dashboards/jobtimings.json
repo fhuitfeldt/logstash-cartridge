@@ -20,29 +20,18 @@
     "filter": {
       "list": {
         "0": {
-          "from": "2015-03-01T14:46:35.572Z",
-          "to": "now",
           "type": "time",
+          "from": "2015-02-22T06:37:01.877Z",
+          "to": "2015-03-19T02:31:09.109Z",
           "field": "@timestamp",
           "mandate": "must",
           "active": true,
           "alias": "",
           "id": 0
-        },
-        "1": {
-          "type": "time",
-          "from": "2015-03-05T21:55:17.776Z",
-          "to": "2015-03-10T13:51:43.114Z",
-          "field": "@timestamp",
-          "mandate": "must",
-          "active": true,
-          "alias": "",
-          "id": 1
         }
       },
       "ids": [
-        0,
-        1
+        0
       ]
     }
   },
@@ -61,12 +50,12 @@
             "default"
           ],
           "type": "histogram",
-          "mode": "count",
+          "mode": "total",
           "time_field": "@timestamp",
-          "value_field": null,
+          "value_field": "duration",
           "auto_int": true,
           "resolution": 100,
-          "interval": "1h",
+          "interval": "3h",
           "fill": 3,
           "linewidth": 3,
           "timezone": "browser",
@@ -87,7 +76,7 @@
               0
             ]
           },
-          "title": "Events over time",
+          "title": "Aggregated jobtime",
           "intervals": [
             "auto",
             "1s",
@@ -153,14 +142,18 @@
           "pages": 5,
           "offset": 0,
           "sort": [
-            "@timestamp",
+            "duration",
             "desc"
           ],
           "style": {
             "font-size": "9pt"
           },
           "overflow": "min-height",
-          "fields": [],
+          "fields": [
+            "duration",
+            "jobname",
+            "@timestamp"
+          ],
           "localTime": true,
           "timeField": "@timestamp",
           "highlight": [],
