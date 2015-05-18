@@ -40,4 +40,8 @@ press "here" under "Setting a global default dashboard" in the left hand column
 
 This should show a basic overview of the events that were parsed.
 
+....
+
+
+to access jobtimings dashboard, open index.html#/dashboard/file/jobtimings.json (for example file:///Users/fmadsen/branches/logstash-cartridge/kibana/src/index.html#/dashboard/file/jobtimings.json)
 It ain't much, but currently this is what we have
